@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* header styling here */
+#header-section{
+    height: 100px;
+    width: 100%;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+  display: flex;
+}
+.Logo{
+    background-color: rgb(242, 245, 247);
+    height: 100px;
+    width: 30%;
+    margin: 0px;
+   
+}
+.Logo h1{
+    margin-left: 190px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    color: rgb(53, 49, 49);
+}
+.navlinks{
+    background-color: rgb(242, 245, 247);
+    height: 100px;
+    width: 70%;
+    float: right;
+}
+.navlinks ul{
+    float: right;
+
+}
+#home{
+    color: black;
+}
+.navlinks li{
+    display: inline-block;
+    list-style: none;
+
+}
+.navlinks li a{
+    font-size: 11px;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    padding: 0px 15px;
+   color: grey;
+
+}
+.lists{
+    margin-top: 44px;
+    margin-right: 200px;
+}
+/* hero section styling here */
+#hero-section{
+     width: 100%;
+}
+.div2{
+    background-color: rgb(242, 245, 247);
+    height: 500px;  
+    width: 50%;
+}
+.div2 p{
+     margin-left: 180px;
+     margin-top: 0px;
+     padding-top: 11rem;
+     letter-spacing: 5px;
+}
+.div2 h1{
+    margin-left: 11rem;
+    margin-top: -18px;        
+    font-size: 40px;
+    color: rgb(53, 49, 49) ;
+}
+.div4{
+    display: flex;
+}
+.div3{
+    margin-top: -210px;
+    font-size: x-small;
+}
+.div5{
+    background-color: rgb(242, 245, 247);
+    width: 50%;
+}
+.div6{
+   margin-top: 40px;
+   margin-left: 90px;
+}
+/* services section styling here */
+#services-section{
+    height: 600px;
+}
+.div7{
+    /* background-color: blue; */
+    width: 55%;
+    height: 600px;
+}
+.div8{
+     padding:85px;
+    margin-left: 140px;
+}
+.div9{
+    display: flex;
+    /* background-color: aqua; */
+}
+.div10{
+    margin-left: -24px;
+    padding: 100px;
+}
+.div10 h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div10 p{
+    color: rgb(53, 49, 49) ;
+}
+
+    
