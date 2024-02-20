@@ -173,12 +173,10 @@ body {
 }
 .button{
   padding-top: 40px;
-color: grey;
-
 }
 .button1{
-  padding: 20px 30px 20px 30px;
+  padding: 10px 20px 10px 20px;
  color:white;
- 
+ background-color: gray;
 
 }
