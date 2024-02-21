@@ -68,6 +68,11 @@ body {
   padding-top: 11rem;
   letter-spacing: 5px;
 }
+
+.div2 p::first-line{
+  color: red;
+}
+
 .div2 h1 {
   margin-left: 11rem;
   margin-top: -18px;
