@@ -49,6 +49,13 @@ body {
   padding: 0px 15px;
   color: grey;
 }
+.lists a:hover{
+  background-color: red;
+  padding: 15px;
+  border-radius: 10px;
+  
+  
+}
 .lists {
   margin-top: 44px;
   margin-right: 200px;
@@ -100,25 +107,23 @@ body {
 }
 .div7 {
   /* background-color: blue; */
-  width: 60%;
+  width: 50%;
   height: 600px;
 }
 .div8 {
   border: 10px solid rgb(242, 245, 247);
-  margin-top: 70px;
-  width: 330px;
+  margin-top: 55px;
+  width: 320px;
   float: right;
-
 }
-.div8 img{
-  margin-left: 10px;
- }
+
+ 
 .div9 {
   display: flex;
   /* background-color: aqua; */
 }
 .div10 {
-  margin-left: -60px;
+  /* margin-left: -60px; */
   padding: 100px;
   width: 650px;
 }
@@ -138,7 +143,6 @@ body {
   background-color: grey;
   position: relative;
   right: 0;
-
   height: 4px;
 }
 .line1 {
@@ -183,5 +187,12 @@ body {
   padding: 10px 20px 10px 20px;
  color:white;
  background-color: gray;
-
+}
+.button :hover{
+  color: red;
+}
+#about-section{
+  height: 500px;
+  background-color: rgb(242, 245, 247) ;
+  display: flex;
 }
