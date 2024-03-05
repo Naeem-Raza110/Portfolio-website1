@@ -178,19 +178,18 @@ body {
     height: 4px;
     background-color: black;
 }
-.button{
-  padding-top: 40px;
-}
-.button1{
+.btn1{
+  padding: 10px 10px;
+  margin-top: 50px;
   cursor: pointer;
+  background-color: #a8a0a0;
   border: none;
-  padding: 10px 20px 10px 20px;
- color:white;
- background-color: gray;
+  color: #f8eeee;
 }
-.button :hover{
-  color: rgb(204, 199, 199);
+.btn1:hover{
+  background-color:#7c7676 ;
 }
+
 /* About section style here */
 #about-section{
   width: 100%; 
@@ -269,3 +268,14 @@ body {
   font-weight: 700;
   font-size: 25px;
 }
+.exp-contant{
+  display: flex;
+  height: 200px;
+  width:100% ;
+  background-color: rgb(65, 184, 240);
+}
+.contant {
+  background-color: blue;
+  width: 23%;
+}
+
