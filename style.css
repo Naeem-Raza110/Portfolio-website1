@@ -75,6 +75,7 @@ body {
   margin-top: 0px;
   padding-top: 11rem;
   letter-spacing: 5px;
+  color: #6d6868;
 }
 .div2 h1 {
   margin-left: 11rem;
@@ -89,45 +90,46 @@ body {
   margin-top: -210px;
   font-size: x-small;
 }
+.div3 p{
+  color: #6d6868;
+}
 .div5 {
   background-color: rgb(242, 245, 247);
   width: 50%;
 }
 .div6 {
   margin-top: 40px;
-  margin-left: 90px;
+  margin-left: 80px;
 }
 /* services section styling here */
 #services-section {
   height: 600px;
 }
 .div7 {
-  /* background-color: blue; */
-  width: 50%;
+  width: 43%;
   height: 600px;
 }
 .div8 {
   border: 10px solid rgb(242, 245, 247);
-  margin-top: 55px;
-  width: 320px;
+  margin-top: 60px;
+  width: 340px;
   float: right;
 }
 
- 
 .div9 {
   display: flex;
-  /* background-color: aqua; */
 }
 .div10 {
-  /* margin-left: -60px; */
   padding: 100px;
-  width: 650px;
+  width: 45%;
 }
 .div10 h2 {
+  font-weight: 900;
+  color: rgb(53, 49, 49);
   font-family: Arial, Helvetica, sans-serif;
 }
 .div10 p {
-  color:rgb(104, 99, 99);
+  color: #6d6868;;
   font-size: 16px;
   font-weight: 500  ;
 }
@@ -137,14 +139,14 @@ body {
   float: left;
 }
 .line {
-  width: 160%;
+  width: 100%;
   background-color: grey;
   position: relative;
   right: 0;
   height: 4px;
 }
 .line1 {
-  width: 90%;
+  width: 88%;
   height: 4px;
   background-color: black;
 }
@@ -155,26 +157,26 @@ body {
   margin-top: 10px;
 }
 .line2 {
-  width: 160%;
+  width: 100%;
   background-color: grey;
   position: relative;
   right: 0;
   height: 4px;
 }
 .line3{
-    width: 85%;
+    width: 80%;
     height: 4px;
     background-color: black;
 }
 .line4{
-    width: 160%;
+  width: 100%;
   background-color: grey;
   position: relative;
   right: 0;
   height: 4px; 
 }
 .line5{
-    width: 80%;
+    width: 70%;
     height: 4px;
     background-color: black;
 }
@@ -204,6 +206,7 @@ body {
   width: 50%;
   margin: auto;
   text-align: center;
+  
 }
 .services p{
   color: #6d6868;
@@ -211,8 +214,9 @@ body {
 .services h2{
   padding-top: 50px;
   align-items: center;
-  font-weight: 700;
-  font-size: 25px;
+  font-weight: 900;
+  color: rgb(53, 49, 49);
+  font-family: Arial, Helvetica, sans-serif;
 }
 .service-boxes{
   display: flex;
@@ -223,18 +227,21 @@ body {
   
 }
 .service-box{
+  
   width: 400px;
   height: 250px;
   margin-right: 20px;
   background-color: #fff;
  
 }
+.service-box i{}
 
 .service-box h4{
-  padding-top: 50px;
+  padding-top: 10px;
   align-items: center;
-  font-weight: 600;
-  font-size: 17px;
+  font-weight: 900;
+  color: rgb(53, 49, 49);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .service-box p{
@@ -265,17 +272,245 @@ body {
 .experience h2{
   padding-top: 40px;
   align-items: center;
-  font-weight: 700;
-  font-size: 25px;
+  font-weight: 900;
+  color: rgb(53, 49, 49);
+  font-family: Arial, Helvetica, sans-serif;
 }
-.exp-contant{
+.exp-content{
+  width: 100%;
   display: flex;
-  height: 200px;
-  width:100% ;
-  background-color: rgb(65, 184, 240);
 }
-.contant {
-  background-color: blue;
-  width: 23%;
+.content{
+  display: flex;
+  width:80% ;
+  margin: auto;
+}
+.exp-box{
+  color: #6d6868;
+  width: 15%;
+  text-align: center;
+  padding: 15px;
+ 
+}
+.exp-box h6{
+  font-size: 13px;
+}
+.exp-box p{
+  margin-top: -27px;
+  font-size: 12px;
+      
+} 
+.exp-box1{
+  width: 35%;
+  padding: 20px;
+}
+.exp-box1 h3{
+  font-weight: 900;
+  color: rgb(53, 49, 49);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.exp-box1 p{
+  margin-top: -10px;
+  color: #6d6868;
+}
+
+/* Ratio section style here */
+.ratio-section{
+  background-color: rgb(242, 245, 247) ;
+  height: 200px;
+  width: 100%;
+}
+.ratios{
+  display: flex;
+  width: 70%;
+  margin: auto;
+  height: 200px;
+}
+.ratio{
+  width: 25%;
+}
+.ratio-content{
+  margin-top: 60px;
+  text-align: center;
+}
+.ratio-content h3{
+   margin-top: -9px;
+   font-size: 24px;
+   font-weight: 900;
+   color: rgb(53, 49, 49);
+   font-family: Arial, Helvetica, sans-serif;
+}
+.ratio-content p{
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(53, 49, 49);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* <!-- Portfolio Section style Here --> */
+
+#portfolio-section{
+  height: 850px;
+}
+.portfolio-sec{
+  display: flex;
+  align-items: center;
+}
+.portfolio{
+  padding-top: 40px;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+.portfolio h2{
+  font-weight: 900;
+  color: rgb(53, 49, 49);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.portfolio p{
+  color: #6d6868;
+}
+.img-boxs{
+  border: 2px solid;
+  height: 660px;
+  width: 900px;
+  margin: auto;
+  display: flex;
+}
+
+
+
+
+
+/* pic-section here */
+#pic-section{
+  align-items: center;
+  display: flex;
+  background-color: rgb(242, 245, 247) ;
+  height: 370px;
+  width: 100%;
+}
+.img-section{
+  width: 39%;
+ 
+}
+.img-section img {
+  padding: 0 230px;
+}
+.content-img {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 36%;
+  height: 280px;
+}
+.content-img p{
+  color: #6d6868;
+  margin-top: 30px;
+}
+.content-img img{
+  padding: 0 10px;
+  margin-top: 40px;
+}
+
+
+
+/* latest section  style here */
+
+#latest-section{
+  width: 100%;
+ 
+  
+}
+.latest-boxs{
+
+  display: flex;
+  height: 400px;
+  width: 70%;
+  margin: auto;
+ 
+}
+.latest-box1{
+  text-align: center;
+  margin-right: 20px;
+  margin-top: 40px;
+  padding: 0 20px;
+  height: 400px;
+  width: 30%;
+  
+}
+
+.latest-box1 img{
+   margin-left: -20px;
+ 
+}
+.latest-box1 h4{
+  font-weight: 900;
+  color: rgb(53, 49, 49);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.latest-box1 p{
+  color: #6d6868;
+}
+.latest-box1 a {
+  margin-right: 145px;
+  font-size: 13px;
+  border: none;
+  color: #6d6868;
+}
+
+
+
+
+/* Contact Section Here */
+#footer{
+  width: 100%;
+  display: flex;
+  height: 370px;
+  margin-top : 260px;
+  background-color:  rgb(233, 237, 240) ;
+}
+.socila-icons{
+
+}
+.contact-form{
+  width: 60%;
+  display: flex;
+  height: 320px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: -130px;
+  box-shadow: 0px 0px 10px 0px rgb(97, 97, 99) ;
+  
+}
+.contact-1{
+  width: 58%;
+  height: 320px;
+  /* border: 1px solid; */
+}
+.contact-1 h3{
+  font-weight: 900;
+  color: rgb(53, 49, 49);
+  font-family: Arial, Helvetica, sans-serif; 
+  padding: 35px 50px;
+
+}
+.contact-1 form{
+  
+  
+}
+.contact-2{
+  width: 50%;
+  height: 320px;
+  /* border: 1px solid; */
+}
+.contact-2 h3{
+  font-weight: 900;
+  color: rgb(53, 49, 49);
+  font-family: Arial, Helvetica, sans-serif; 
+  padding: 35px 50px;
 }
 
