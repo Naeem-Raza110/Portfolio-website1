@@ -1,319 +1,46 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <link rel="stylesheet" href="css/style.css" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
-    rel='stylesheet'>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Naeem Profile</title>
-  </head>
-  <body>
-    <main>
-      <!-- header -->
-      <header id="header-section">
-        <nav class="navbar">
-          <div class="Logo">
-            <h1>N.R</h1>
-          </div>
-          <div class="navlinks">
-            <ul class="lists">
-              <li><a href="#" id="home">HOME</a></li>
-              <li><a href="#">ABOUT</a></li>
-              <li><a href="#">PORTFOLIO</a></li>
-              <li><a href="#">SERVICES</a></li>
-              <li><a href="#">BLOG</a></li>
-              <li><a href="#">CONTACT</a></li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-      <!-- hero section -->
-      <section id="hero-section">
-        <div class="div4">
-          <div class="div2">
-            <p>Hi this is</p>
-            <h1>NAEEM RAZA</h1>
-            <div class="div3"><p>DESIGNER DEVELOPER PHOTOGRSPHER</p></div>
-          </div>
-          <div class="div5">
-            <div class="div6">
-              <img src="images/asdf.png" alt="" height="445px" width="330px" />
-            </div>
-          </div>
-          <div></div>
-        </div>
-      </section>
-      <!-- services section -->
-      <section id="services-section">
-        <div class="div9">
-          <div class="div7">
-            <div class="div8">
-              <img src="images/zxcvb.png" alt="" height="440px" width="310px" />
-            </div>
-          </div>
-          <div class="div10">
-            <h2>About me</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-              aperiam tempore quasi odit voluptatibus praesentium laudantium,
-              tenetur consectetur quia quae delectus, quibusdam distinctio ea
-              magni dolorem reprehenderit, temporibus voluptate modi?
-            </p>
-            <div >
-              <div class="items">
-                <h5 style="font-size: 13px; margin-bottom: 4px;letter-spacing: 1px; ">photoshop</h5>
-                <div class="item">
+        <link rel="stylesheet" href="assets/style.css">
 
-                  <div style="display: flex; justify-content: space-between; flex-direction: column; height: 15vh;">
-                    <div class="main-line" style="margin-bottom: 10px;">
-                      <div class="line">
-                        <div class="line1">
-                          <div style="position: absolute; bottom: 6px; display: flex; justify-content: end ; width: 100%;">90%</div>
-                        </div>
-                      </div>
-                    </div>
-                    <h5 style="font-size: 13px; margin-bottom: 4px;letter-spacing: 1px;">illustrator</h5>
-                    <div class="main-line" style="margin-bottom: 10px;">
-                      <div class="line2">
-                        <div class="line3">
-                          <div style="position: absolute; bottom: 6px; display: flex; justify-content: end ; width: 100%;">80%</div>
-                        </div>
-                      </div>
-                    </div>
-                    <h5 style="font-size: 13px; margin-bottom: 4px; letter-spacing: 1px;">html & css</h5>
-                    <div class="main-line" style="margin-bottom: 10px;">
-                      <div class="line4">
-                        <div class="line5">
-                          <div style="position: absolute; bottom: 6px; display: flex; justify-content: end ; width: 100%;">75%</div>
-                        </div>
-                        <button class="btn1">DOWNLOAD CV</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-              </div>
-            </div>
-             </div>
-        </div>
-      </section>
-      <!-- about section -->
-      <section id="about-section">
-       <div class="services">
-        <h2>MY SERVICES</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit pariatur quasi impedit et voluptate odit facere neque odio corrupti repellat doloribus molestias!</p>
-       </div>
-       <div class="service-boxes">
-        <div class="service-box">
-       
-            <i class='bx bx-mobile-alt' style="font-size: 30px; margin-top: 40px;"></i>
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-          <h4>App Design</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, odio.
-          </p>
-        </div>
-        <div class="service-box" style="border-bottom: 1px solid;">
-          <i class='bx bxs-bulb' style="font-size: 30px; margin-top: 40px;" ></i>
-           
-          <h4>Graphic Design</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, odio.
-          </p></div>
-        <div class="service-box">
-          <i class='bx bxs-camera' style="font-size: 30px; margin-top: 40px;"></i>
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Naeem Raza</a>
+                </div>
 
-          <h4>Photography</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, odio.
-          </p></div>
-        <div class="service-box">
-          <i class='bx bx-laptop' style="font-size: 30px; margin-top: 40px;"></i>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
 
-          <h4>Web Design</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, odio.
-          </p></div>
-       </div>
-      </section>
-
-      <!--experience-section  -->
-      <section id="experience-section">
-        <div class="experience">
-          <h2>MY EXPERIENCE</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit pariatur quasi impedit et voluptate odit facere neque odio corrupti repellat doloribus molestias!</p>
-         </div> 
-         <div class="exp-content">
-          <div class="content">
-            <div class="exp-box">
-              <h6>Dribble</h6>
-              <p>2011-2020</p>
-            </div>
-            <div class="exp-box1">
-              <h3>GRAPHIC DESIGNER</h3>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptates minus earesse dolore officiis totam sed!</p>
-            </div>
-            <div class="exp-box"><h6>Marveltheme</h6>
-              <p>2011-present</p>
-            </div>
-            <div class="exp-box1">
-              <h3>CREATIVE DIRECTOR</h3>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptates minus earesse dolore officiis totam sed!</p>
-            </div>
-            </div>
-         </div>
-         <div class="exp-content">
-          <div class="content">
-            <div class="exp-box">
-              <h6>Themeforest</h6>
-              <p>2011-present</p>
-            </div>
-            <div class="exp-box1">
-              <h3>WEB PROGRAMMER</h3>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptates minus earesse dolore officiis totam sed!</p>
-            </div>
-            <div class="exp-box"><h6>Behance</h6>
-              <p>2011-2019</p>
-            </div>
-            <div class="exp-box1">
-              <h3>WORDPRESS DEVELOPER</h3>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptates minus earesse dolore officiis totam sed!</p>
-            </div>
-            </div>
-         </div>
-        </div>
-      </section>
-
-      <!-- Ratio section start -->
-      <section class="ratio-section">
-          <div class="ratios">
-            <div class="ratio">
-              <div class="ratio-content">
-                <i class='bx bxs-coffee-alt' style="font-size: xx-large; color: rgb(53, 49, 49);" ></i>
-                <p>CUPS OF COFFE</p>
-                <h3>200</h3>
-              </div>
-            </div>
-            <div class="ratio">
-              <div class="ratio-content">
-                <i class='bx bx-male-female' style="font-size: xx-large; color: rgb(53, 49, 49);"></i>
-                <p>HAPPY CLIENT</p>
-                <h3>150</h3>
-              </div>
-            </div>
-            <div class="ratio">
-              <div class="ratio-content">
-                <i class='bx bx-male-female' style="font-size: xx-large; color: rgb(53, 49, 49);"></i>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
 
 
-                <p>SUCCESS PROJECT</p>
-                <h3>100</h3>
-              </div>
-            </div>
-            <div class="ratio">
-              <div class="ratio-content">
-                <i class='bx bx-male-female' style="font-size: xx-large; color: rgb(53, 49, 49);"></i>
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-                  <p>WIN AWARD</p>
-                <h3>50</h3>
-              </div>
-            </div>
-          </div>
-      </section>
-
-      <!-- Portfolio Section Here -->
-      <section id="portfolio-section">
-        <div class="portfolio-sec">
-        <div class="portfolio">
-          <h2>MY PORTFOLIO</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit pariatur quasi impedit voluptate corrupti repellat doloribus molestias!</p>
-          </div>
-        </div>
-        <div class="img-boxs">
-          <img src="images/bag-img.jpg" alt="" width="300px" height="300px">
-          <img src="images/2img.jpg" alt="" width="300px" height="200px">
-          <img src="images/chair-img.jpg" alt="" width="300px" height="300px">
-        </div>
-        
-      </section>
-
-
-      <!-- pic section here -->
-
-      <section id="pic-section">
-             <div class="img-section">
-              <img src="images/page img.avif" height="230px" width="200px">
-             </div>
-             <div class="content-img">
-              <p> <b>"</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nam atque repellat  harum autem, totam error earum exercitationem voluptas vel vitae unde. Alias, at quis. <b>"</b> </p>
-              <img src="images/glass-img.png" height="100px" width="90px">
-              <img src="images/bag-img.jpg" alt="" height="100px" width="90px">
-              <img src="images/table-img.jpg" alt="" height="100px" width="90px">
-             </div>
-      </section>
-
-
-      <!-- latest section here -->
-
-
-      <section id="latest-section">
-        <div class="experience">
-          <i class="fa-solid fa-check-double"></i>
-           <h2>LATEST NEWS</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit pariatur quasi impedit et voluptate odit facere neque odio corrupti repellat doloribus molestias!</p>
-         </div> 
-         <div class="latest-boxs" >
-          <div class="latest-box1" style="border: none; box-shadow: 0px 0px 3px 0px rgb(0, 0, 0.1) ;">
-            <img src="images/2img.jpg" alt="" height="200px" width="115.7%">
-           
-
-
-            <h4>Dummy Blog Text Title</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint exercitationem dicta facere inventore sed, sapiente dolores similique expedita.</p>
-            <a href="#" >READ MORE</a>
-          </div>
-          <div class="latest-box1" style="border: none; box-shadow: 0px 0px 10px 0px rgb(90, 88, 88) ;">
-            <img src="images/table-img.jpg" alt="" height="200px" width="114.2%" >
-           
-            <h4>Dummy Blog Text Title</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint exercitationem dicta facere inventore sed, sapiente dolores similique expedita.</p>
-            <a href="#" >READ MORE</a>
-          </div>
-          <div class="latest-box1" style="border: none; box-shadow: 0px 0px 3px 0px rgb(0, 0, 0.1) ;">
-            <img src="images/chair-img.jpg" alt="" height="200px" width="115.8%">
-          
-            <h4>Dummy Blog Text Title</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint exercitationem dicta facere inventore sed, sapiente dolores similique expedita.</p>
-             <a href="#" >READ MORE</a>
-          </div>
-          
-         </div>
-      </section>
-
-      <!-- Contact section -->
-
-      <section id="footer">
-        <div class="socila-icons">
-          <i class='bx bxl-facebook' style="font-size: 20px;"></i>
-          <i class='bx bxl-instagram'></i>
-          <i class='bx bxl-twitter'></i>
-          <i class='bx bx-wifi'></i>
-        </div>
-
-        <div class="contact-form">
-          <div class="contact-1">
-            <h3>I am available for freelance</h3>
-           </div>
-          <div class="contact-2">
-            <h3>Contact Address</h3>
-          </div>
-        </div>
-
-        
-      </section>
-
-      
-    </main>
-  </body>
-</html>       
-                
-       
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
